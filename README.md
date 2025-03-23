@@ -6,7 +6,7 @@ Click on XXX following for the popup with the users you're following to appear.
 Open Chrome Devtools and Paste the following into the Console and hit return. - If you get pasting is disabled type 'allow pasting' and press enter.
 
 
-'''
+```
 (async function(){
   const UNFOLLOW_LIMIT = 800;
   const delay = (ms) => new Promise(res => setTimeout(res, ms));
@@ -37,4 +37,4 @@ Open Chrome Devtools and Paste the following into the Console and hit return. - 
 
   console.log("Finished unfollowing.");
 })();
-'''
+```
